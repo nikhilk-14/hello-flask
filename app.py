@@ -8,7 +8,7 @@ api = Api(app)
 
 @app.route("/")
 def home():
-    return "Hello world flask"
+    return "Hello world flask azure web app"
 
 @app.route("/hello/<name>")
 def hello_there(name):
